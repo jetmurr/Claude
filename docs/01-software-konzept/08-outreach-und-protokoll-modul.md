@@ -46,10 +46,15 @@ Postfach-Anbindung. Optionen:
 
 | Variante | Wie | Eignung |
 |---|---|---|
-| **Gmail API** (OAuth) | Google-Konto autorisieren | Google-Workspace/Gmail |
-| **Microsoft Graph** (OAuth) | Microsoft-365-Konto autorisieren | Outlook/M365 |
-| **IMAP/SMTP** | Server + App-Passwort | beliebiger Anbieter |
-| **CRM/Tool mit Mailversand** | z. B. über bestehendes CRM | wenn schon vorhanden |
+| **Microsoft Graph** (OAuth, delegiert) | Microsoft-365-Konto autorisieren | **Outlook/M365 — für dieses Projekt gewählt** ✅ |
+| Gmail API (OAuth) | Google-Konto autorisieren | Google-Workspace/Gmail |
+| IMAP/SMTP | Server + App-Passwort | beliebiger Anbieter |
+| CRM/Tool mit Mailversand | z. B. über bestehendes CRM | wenn schon vorhanden |
+
+→ **Gewählte Anbindung: Microsoft 365.** Vollständige Einrichtungsanleitung
+(App-Registrierung, delegierte Berechtigungen `Mail.Send`/`Mail.Read`, `sendMail`,
+Reply-Zuordnung via `conversationId`, Webhooks):
+**[Microsoft-Graph-E-Mail-Integration](../integrationen/microsoft-graph-email.md)**.
 
 Querschnitt: **DSGVO/Einwilligung** (gerade bei Interviews), Bounce-/Spam-Handling,
 Rate-Limits, klare Kennzeichnung als reale Anfrage.
@@ -69,8 +74,9 @@ Rate-Limits, klare Kennzeichnung als reale Anfrage.
 - **Verdichtung durch mich:** Du kannst mir eingegangene Antworten einfügen — ich
   strukturiere sie regelkonform ins Protokoll und die Matrix.
 
-**Um den vollautomatischen Versand/Einlesen zu aktivieren**, ist einer der oben
-genannten Anbindungswege nötig (Gmail/Graph/IMAP oder ein MCP-/Tool-Connector für
-E-Mail). Sobald ein solcher Connector verfügbar ist, läuft der Workflow oben
-End-to-End. Sag Bescheid, welchen Anbieter du nutzt (Google / Microsoft /
-anderer), dann beschreibe ich die konkrete Einrichtung.
+**Um den vollautomatischen Versand/Einlesen zu aktivieren**, wird die
+**Microsoft-Graph-Anbindung** eingerichtet (delegiert, eigenes Postfach) — die
+vollständige Bauvorlage steht unter
+[Microsoft-Graph-E-Mail-Integration](../integrationen/microsoft-graph-email.md).
+Sobald App-Registrierung + Admin-Consent stehen, läuft der Workflow oben
+End-to-End.

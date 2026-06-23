@@ -77,6 +77,11 @@ in ihren Vor-/Nachteilen klar ist.
 | [Customer-Interview-Guide](docs/templates/customer-interview-guide.md) | Strukturierte Discovery-Interviews |
 | [E-Mail-Vorlagen](docs/templates/email/README.md) | Mystery Shopping, Interview-Einladung, Partner, Nachfass |
 
+### Integrationen
+| Dokument | Inhalt |
+|---|---|
+| [Microsoft Graph (E-Mail)](docs/integrationen/microsoft-graph-email.md) | Versand/Lesen aus dem M365-Postfach: Einrichtung, Berechtigungen, Webhooks |
+
 ---
 
 ## Datenehrlichkeit (gilt im ganzen Repo)
