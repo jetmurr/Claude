@@ -43,9 +43,10 @@ Implementierung selbst, tatsächliche Auditor-Ausbildung, Plattform-Entwicklung.
 - Mystery Shopping & Interviews mit **Transkript/Notizen** dokumentiert.
 - Wettbewerbsmatrix als **Excel/Airtable**, nicht Prosa.
 
-> In diesem Repo sind deshalb alle quantitativen Felder als `[zu erheben]`
-> markiert — mit Quelle und Methode. Sie werden im Projekt mit echten Daten
-> gefüllt, nicht hier erfunden.
+> Stand in diesem Repo: Markt-/Förder-/Steuer-Eckdaten sind **recherchiert und
+> belegt** (siehe [08 Quellen](08-quellen-und-belege.md)). Verbleibende
+> Primärdaten (Wettbewerbspreise, Search-Volume, Interviews, CRM-Conversion) sind
+> als `[zu erheben]` markiert — mit Quelle und Methode, nicht erfunden.
 
 ## Harte Outputs
 

@@ -5,6 +5,21 @@
 > Mystery Shopping ([02](02-wettbewerbsanalyse.md)) und Marktdaten
 > ([03](03-marktnachfrage.md)).
 
+## C.0 Förder-/Steuer-Rahmen als Zahlungsbereitschafts-Anker (recherchiert)
+
+Die Zahlungsbereitschaft für QNG-Begleitung bemisst sich am **Wert, den das
+Siegel beim Kunden freisetzt**:
+
+- **KfW KFN:** höherer zinsverbilligter Kredit von **bis zu 150.000 € statt
+  100.000 € je Wohneinheit** (Stufe „mit QNG").[^kfw] Für 2024 standen rund
+  **762 Mio. €** für die Zinsverbilligung bereit.[^kfn-budget]
+- **§7b EStG:** bis zu **5 % Sonderabschreibung p. a.** (2024–2026) bei
+  EH40 + QNG.[^cpm]
+
+> Die Zertifizierungskosten je Projekt sind im Verhältnis zu diesem Vorteil zu
+> sehen — das stützt eine **wertbasierte Preislogik** statt reinem Stundensatz.
+> Konkrete Preise kommen aus dem Mystery Shopping (C.1).
+
 ## C.1 Pricing-Range
 
 Abgeleitet aus den realen Preisen des Mystery Shoppings — **nicht geschätzt**.
@@ -70,3 +85,10 @@ RNDG-Bestand, Marktanteil) — alle im Annahmen-Register mit Evidenz-Stufe.
 - [ ] 3 Szenarien mit benannten Schlüsselannahmen
 - [ ] CAC- & Channel-Mix-Annahmen (belegt)
 - [ ] Cross-Sell-Quantifizierung aus CRM-Daten
+
+---
+
+### Quellen
+[^kfw]: KfW, „Klimafreundlicher Neubau – Wohngebäude (297, 298)". https://www.kfw.de/inlandsfoerderung/Privatpersonen/Neubau/Förderprodukte/Klimafreundlicher-Neubau-Wohngebäude-(297-298)/
+[^kfn-budget]: nachhaltiges-zuhause.de (Verweis auf BMWSB), KFN-Budget 2024 ~762 Mio. € Zinsverbilligung. https://www.nachhaltiges-zuhause.de/kfw-klimafreundliches-bauen
+[^cpm]: CPM Steuerberater, „§ 7b EStG Sonderabschreibung Mietwohnungsneubau 2026". https://www.cpm-steuerberater.de/news/entry/2026/02/21/9573-steuerberatung-paragraph-7b-estg-sonderabschreibung-mietwohnungsneubau-2026

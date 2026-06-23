@@ -2,19 +2,31 @@
 
 > Arbeitstitel der Software: **Venture Lens** (austauschbar). Interner Kontext: Gutachten.org / Evalion-Portfolio.
 
-Dieses Repository enthält **zwei zusammengehörige Dinge**:
+Dieses Repository beschreibt **eine Plattform**, in die beliebig viele
+Business-Ideen eingepflegt werden. Jede Idee ist eine **Unterkategorie** mit
+eigenem Analyse-Workspace nach demselben Framework. **QNG ist Idee 001** — die
+erste Unterkategorie.
 
-1. **Das Konzept einer Software**, die Geschäftsideen systematisch von der ersten
-   Idee bis zur Umsetzungsentscheidung prüft — verständlich aufbereitet,
-   markt­seitig durchleuchtet, wirtschaftlich bewertet und mit einer klaren
-   Go/No-Go-Empfehlung versehen.
-2. **Den ersten konkreten Anwendungsfall: QNG** (Qualitätssiegel Nachhaltiges
-   Gebäude) — eine reale Geschäftsidee, durch das Framework gespielt, inklusive
-   der Geschäftsmodell-Varianten (Plattform / eigener Auditor / Drittanbieter).
+```
+VENTURE LENS  (eine Software)
+├── IDEEN-INDEX                 → Registry & Portfolio-Vergleich aller Ideen
+├── Idee 001 · QNG             ✅ aktiv, mit belegter Recherche
+├── Idee 002 · (frei)
+└── …
+```
 
-Die Idee dahinter: Das Framework wird **einmal sauber gebaut** und danach auf
-jede neue Geschäftsidee angewandt. QNG ist der Pilot, an dem das Framework
-geschärft wird.
+Enthalten sind:
+
+1. **Das Software-Konzept** — wie Ideen von der ersten Eingebung bis zur
+   Umsetzungsentscheidung geprüft werden (verständlich aufbereitet, markt­seitig
+   durchleuchtet, wirtschaftlich bewertet, Go/No-Go), inkl. **Plattform-/
+   Ideenverwaltung** und **Outreach-/E-Mail-Modul**.
+2. **Der erste Anwendungsfall QNG** — durchgespielt inkl. Geschäftsmodell-
+   Varianten (Plattform / eigener Auditor / Drittanbieter) und **mit echten,
+   quellenbelegten Marktdaten** (Destatis, BMWSB, KfW, EStG/BMF, DGNB/BiRN).
+
+→ Start: **[IDEEN-INDEX](IDEEN-INDEX.md)** (alle Ideen) ·
+**[QNG-Workspace](docs/02-anwendungsfall-qng/00-uebersicht.md)** (erste Idee).
 
 ---
 
@@ -39,6 +51,8 @@ in ihren Vor-/Nachteilen klar ist.
 | [04 Evidenz & Datenquellen](docs/01-software-konzept/04-evidenz-und-datenquellen.md) | Quellen-Qualitätsstufen, „keine ChatGPT-Recherche" |
 | [05 Scoring & Go/No-Go](docs/01-software-konzept/05-scoring-und-entscheidung.md) | Wie aus Daten eine Entscheidung wird |
 | [06 Roadmap der Software](docs/01-software-konzept/06-roadmap-der-software.md) | MVP → Ausbaustufen |
+| [07 Plattform & Ideenverwaltung](docs/01-software-konzept/07-plattform-und-ideenverwaltung.md) | Eine Software, viele Ideen — Hierarchie & Lebenszyklus |
+| [08 Outreach- & Protokoll-Modul](docs/01-software-konzept/08-outreach-und-protokoll-modul.md) | E-Mail-Ansprache aus deinem Account + Auto-Protokoll |
 
 ### Anwendungsfall QNG (konkret)
 | Dokument | Inhalt |
@@ -51,6 +65,7 @@ in ihren Vor-/Nachteilen klar ist.
 | [05 Capability Assessment](docs/02-anwendungsfall-qng/05-capability-assessment.md) | Build / Hire / Partner, Tech, Auditor-Realität |
 | [06 Implementation Roadmap](docs/02-anwendungsfall-qng/06-implementation-roadmap.md) | 90-Tage-Plan, CAPEX/OPEX, Break-even, Risiken |
 | [07 Empfehlung](docs/02-anwendungsfall-qng/07-empfehlung-go-no-go.md) | Go/No-Go, Modellwahl, Folgeprojekt-Scope |
+| [08 Quellen & Belege](docs/02-anwendungsfall-qng/08-quellen-und-belege.md) | Evidenz-Register: alle Quellen mit Stufe |
 
 ### Templates (für QNG und jede Folge-Idee)
 | Template | Zweck |
@@ -60,16 +75,23 @@ in ihren Vor-/Nachteilen klar ist.
 | [Annahmen-Register](docs/templates/annahmen-register.md) | Jede Annahme nachvollziehbar & prüfbar |
 | [Mystery-Shopping-Protokoll](docs/templates/mystery-shopping-protokoll.md) | Identisches Briefing, dokumentierte Insights |
 | [Customer-Interview-Guide](docs/templates/customer-interview-guide.md) | Strukturierte Discovery-Interviews |
+| [E-Mail-Vorlagen](docs/templates/email/README.md) | Mystery Shopping, Interview-Einladung, Partner, Nachfass |
 
 ---
 
 ## Datenehrlichkeit (gilt im ganzen Repo)
 
-Im QNG-Anwendungsfall sind **belastbare Strukturfakten** ausgearbeitet
-(z. B. dass QNG ein staatliches Siegel des BMWSB ist, über DGNB/BNB/NaWoh/BiRN
-akkreditiert wird, an KfW-Förderung gekoppelt ist).
+Im QNG-Anwendungsfall sind zentrale Fakten **recherchiert und mit Quelle belegt**
+(jede mit Evidenz-Stufe) — u. a.:
+- QNG seit 2021; **10.000. Wohneinheit im März 2026** ausgezeichnet, ~1.700 Siegel,
+  Zahlen stark steigend (BMWSB).
+- Neubau-Basismarkt: **251.900 fertiggestellte Wohnungen 2024** (Destatis).
+- KfW KFN: Förderkredit **bis 150.000 € mit QNG** statt 100.000 € (KfW).
+- **§ 7b EStG befristet — letztmalig VZ 2026**, gekoppelt an EH40 + QNG (EStG/BMF).
 
-**Quantitative Aussagen** (Marktvolumen, Preise, Auditor-Zahlen, Search-Volume)
-sind bewusst **nicht erfunden**, sondern als `[zu erheben]` markiert — inklusive
-Quelle und Methode. Das entspricht dem Qualitätsanspruch: *Primärdaten >
-Sekundärdaten, jede Zahl mit Quelle, keine GPT-Recherche.*
+→ Vollständige Quellenliste: [QNG/08 Quellen & Belege](docs/02-anwendungsfall-qng/08-quellen-und-belege.md).
+
+**Noch nicht erhobene Primärdaten** (konkrete Wettbewerbspreise, Search-Volume,
+Kunden-Interviews, CRM-Conversion) bleiben bewusst als `[zu erheben]` markiert —
+inklusive Methode. Das entspricht dem Qualitätsanspruch: *Primärdaten >
+Sekundärdaten, jede Zahl mit Quelle, keine reine GPT-Recherche.*

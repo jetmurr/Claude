@@ -16,16 +16,18 @@ direkt**, sondern von **akkreditierten Zertifizierungsstellen** vergeben, die ei
 anerkanntes Bewertungssystem nutzen. Für Bauherren ist es vor allem deshalb
 relevant, weil es **Tür zu staatlicher Förderung und Steuervorteilen** ist.
 
-**Warum interessiert das jemanden? (Der Nutzen-Hebel)**
-- **KfW-Förderung:** Für die höhere Förderstufe im Programm *Klimafreundlicher
-  Neubau* wird das QNG-Siegel verlangt. Ohne Siegel keine Top-Förderung.
-- **Steuer (§7b EStG):** Die Sonderabschreibung für den Mietwohnungsneubau ist in
-  ihrer aktuellen Fassung an hohe Effizienz-/Nachhaltigkeitsanforderungen
-  gekoppelt (Effizienzhaus 40 mit QNG-Nachhaltigkeitsklasse). `[Genaue
-  Bedingungen & Befristung: zu verifizieren am Gesetzestext — Quelle EStG/BMF,
-  Stufe A]`
+**Warum interessiert das jemanden? (Der Nutzen-Hebel — belegt)**
+- **KfW-Förderung:** Im Programm *Klimafreundlicher Neubau (KFN)* gibt es zwei
+  Stufen. Die höhere Stufe „Klimafreundliches Wohngebäude **mit QNG**" hebt den
+  zinsverbilligten Förderkredit von **bis zu 100.000 €** auf **bis zu 150.000 €
+  je Wohneinheit**. Ohne QNG-Siegel keine Top-Förderung.[^kfw][^kfn-zuhause]
+- **Steuer (§7b EStG):** Die Sonderabschreibung für den Mietwohnungsneubau
+  (bis zu **5 % p. a.**) setzt bei Investitionen ab 2023 ein **Effizienzhaus 40
+  mit QNG-Nachweis** voraus. Achtung: Sie ist **befristet — letztmalig für den
+  Veranlagungszeitraum 2026**.[^estg][^cpm] Das ist ein zentraler, aber
+  *auslaufender* Treiber (Details & Bewertung → [03 B.5](03-marktnachfrage.md#b5-7b-sunset-risiko-regulatorisches-risiko--recherchiert-kritisch)).
 - **Vermarktung/Werterhalt:** Zertifizierte Gebäude lassen sich besser
-  finanzieren, vermieten, verkaufen.
+  finanzieren, vermieten, verkaufen (EU-Taxonomie/ESG-Kontext).
 
 **Wie läuft eine Zertifizierung grob ab?**
 1. Bauherr/Bauträger will fördern/abschreiben → braucht QNG.
@@ -45,9 +47,16 @@ relevant, weil es **Tür zu staatlicher Förderung und Steuervorteilen** ist.
   Projekt.
 - **Bauherren** — Bauträger, private Bauherren, Wohnungsunternehmen.
 
-> Hinweis zur Genauigkeit: Die obige Beschreibung ist Strukturwissen
-> (Evidenz-Stufe A/B). **Alle Mengen-, Preis- und Fristangaben** zu QNG werden in
-> [03 Marktnachfrage](03-marktnachfrage.md) belegt erhoben, nicht hier geschätzt.
+**Marktreife (belegt):** QNG gibt es seit 2021. Im **März 2026** wurde die
+**10.000. Wohneinheit** mit QNG ausgezeichnet; rund **1.700 QNG-Siegel** wurden
+für fertiggestellte Wohngebäude vergeben. Die Zertifizierungszahlen waren „bis
+Anfang 2025 moderat" und **steigen nun stark an**.[^bmwsb] Seit 1.1.2023 gelten
+die Versionen QNG-WG23 (Wohngebäude) und QNG-NW23 (Nichtwohngebäude).[^qng]
+
+> Hinweis zur Genauigkeit: Strukturwissen und zentrale Marktzahlen sind **belegt**
+> (Quellen am Dokumentende). Verbleibende Primärdaten — konkrete Preise,
+> Search-Volume, Kunden-Interviews — werden in
+> [03 Marktnachfrage](03-marktnachfrage.md) erhoben, nicht hier geschätzt.
 
 ---
 
@@ -146,3 +155,13 @@ Analyse — nicht das Bauchgefühl.
 
 **Gate 1 → 2 erfüllt, wenn:** Diese Aufbereitung von einer außenstehenden Person
 verstanden wird und die vier Fragen als prüfbare Hypothesen im Register stehen.
+
+---
+
+### Quellen
+[^bmwsb]: BMWSB, „QNG: 10.000. Wohneinheit ausgezeichnet" (03/2026). https://www.bmwsb.bund.de/SharedDocs/kurzmeldungen/DE/2026/03/qng.html
+[^qng]: BMWSB / qng.info, QNG-Anforderungen & Versionen WG23/NW23. https://www.qng.info/qng-zertifizierung/qng-anforderungen/
+[^kfw]: KfW, „Klimafreundlicher Neubau – Wohngebäude (297, 298)". https://www.kfw.de/inlandsfoerderung/Privatpersonen/Neubau/Förderprodukte/Klimafreundlicher-Neubau-Wohngebäude-(297-298)/
+[^kfn-zuhause]: nachhaltiges-zuhause.de, „Klimafreundlicher Neubau (KFN): KfW-Förderung" (Kredithöhen 100.000 €/150.000 €). https://www.nachhaltiges-zuhause.de/kfw-klimafreundliches-bauen
+[^estg]: § 7b EStG, gesetze-im-internet.de. https://www.gesetze-im-internet.de/estg/__7b.html
+[^cpm]: CPM Steuerberater, „§ 7b EStG Sonderabschreibung Mietwohnungsneubau 2026". https://www.cpm-steuerberater.de/news/entry/2026/02/21/9573-steuerberatung-paragraph-7b-estg-sonderabschreibung-mietwohnungsneubau-2026

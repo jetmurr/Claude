@@ -12,18 +12,33 @@
 | **Prozesse** | Projektbegleitung Planung→Bau, Nachweisführung, Schnittstelle KfW/Steuer |
 | **Plattform/Funnel** | Lead-Gewinnung, Angebot, Kundenmanagement (gutachten.org-Stärke) |
 
-## D.2 Auditor-Realität (kritischer Engpass)
+## D.2 Auditor-Realität (kritischer Engpass) — *recherchiert*
 
-Belastbares Strukturwissen, im Projekt am Systemträger zu verifizieren:
+Die Qualifikation läuft über die Systemträger (DGNB/BNB/NaWoh/BiRN), die ihre
+Anforderungen **selbst definieren**. Eine bundesweite, offizielle Auditorenliste
+(analog der Energieeffizienz-Expertenliste) **existiert nicht**.[^bmwsb-keine-liste]
 
-- Die **QNG-Auditor-/Nachhaltigkeitskoordinator-Qualifikation** läuft über die
-  Systemträger (DGNB/BNB/NaWoh/BiRN).
-- Typische Eckdaten laut Leitfaden: **Dauer 6–12 Monate, Kosten ~5–15 k €**,
-  Voraussetzung i. d. R. **Bauingenieur/Architekt + Praxiserfahrung**.
-  `[Exakte Dauer/Kosten/Voraussetzungen je Systemträger: zu verifizieren — Stufe B]`
+**Reale Eckdaten (korrigiert die Leitfaden-Annahme „6–12 Monate"):**
 
-→ Konsequenz: **Variante B (eigener Auditor) hat den längsten Vorlauf** und ein
-Personal-Beschaffungsrisiko. Das ist direkt entscheidungsrelevant.
+| System | Format/Dauer | Quelle |
+|---|---|---|
+| **DGNB** | Stufenmodell (Registered Professional → Consultant → Auditor); Kurs als **8-Wochen-Hybridformat**, verkürzt **5 Wochen On-Demand** für Erfahrene | DGNB Academy [^dgnb] |
+| **BiRN / BNK (QNG)** | **28 Unterrichtseinheiten an 4 (halbtägigen) Online-Terminen** + betreute Hausarbeit | BiRN [^birn] |
+
+**Zugangsvoraussetzung** (BiRN, typisch): berufsqualifizierender Hochschulabschluss
+(Diplom/Master) **oder** Bachelor + ≥ 2 Jahre Praxis **oder** Meister/Techniker +
+≥ 5 Jahre Praxis im nachhaltigen/energieeffizienten Bauen.[^birn]
+
+> **Korrektur zur Ausgangsannahme:** Die eigentliche *Kursdauer* ist mit Wochen
+> deutlich kürzer als die im Leitfaden angenommenen 6–12 Monate. Der **wahre
+> Engpass ist die Zugangsvoraussetzung** (qualifizierter Bauingenieur/Architekt
+> mit Praxis) — nicht der Kurs. Damit verschiebt sich das Risiko von „Ausbildung
+> dauert lange" zu „**passendes Personal finden/binden**".
+> `[Exakte Kurskosten je Systemträger: nicht öffentlich einheitlich — zu erfragen, Stufe B]`
+
+→ Konsequenz für die Modellwahl: **Hire** (fertig qualifizierte Person anstellen)
+kann schneller sein als **Build**, weil der Kurs kurz, aber das Vorwissen die
+Hürde ist. **Partner** umgeht die Hürde ganz. Das ist direkt entscheidungsrelevant.
 
 ## D.3 Drei Betriebsmodelle (Build / Hire / Partner)
 
@@ -55,3 +70,10 @@ Software)** ist mit allen dreien kombinierbar.
 - [ ] Verifizierte Auditor-Realität je Systemträger (Dauer/Kosten/Voraussetzung)
 - [ ] Build/Hire/Partner mit Pros/Cons und grober Bepreisung
 - [ ] Tech-Gap-Analyse Gutachten.org-Plattform
+
+---
+
+### Quellen
+[^bmwsb-keine-liste]: BMWSB, Hinweis: keine bundesweite Liste der Nachhaltigkeitsexperten; Systemträger definieren Auditor-Anforderungen selbst. https://www.bmwsb.bund.de/DE/bauen/foerderprogramme/qualtiaetssiegel-nachhaltige-gebaeude/qualtiaetssiegel-nachhaltige-gebaeude_node.html
+[^dgnb]: DGNB Academy, „Become a DGNB Auditor" (Stufenmodell, 8-Wochen-/5-Wochen-Kurs). https://www.dgnb.de/en/academy/become-a-dgnb-certification-expert/dgnb-auditor
+[^birn]: BiRN Bauinstitut, „So werden Sie Auditor" (BNK/QNG: 28 UE / 4 Termine, Zugangsvoraussetzungen). https://bau-irn.com/bnk-auditor/so-werden-sie-auditor
